@@ -3,9 +3,9 @@ from data import dataset
 
 #    Створити пакет validators та написати функції, що валідують усі дані. Імпорутвати дані функції.
 
-from validators.lib import getProductPrice
-from validators.lib import getProductName
-from validators.lib import getUserEmail
+from validators.lib import ?
+?
+?
 
 
 from task1 import addUserProduct
