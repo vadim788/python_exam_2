@@ -15,27 +15,16 @@ from task1 import addUserProduct
 #   Усі дані вводить користувач. Використати валідатори. Викликати функцію
 
 def addUserProductValidator():
-
-    user_email = getUserEmail()
-    while not user_email:
-        print("Error in email. Try again")
-        user_email = getUserEmail()
+    #TODO
+    ? = getUserEmail()
 
 
-    product_name = getProductName()
-    while not product_name:
-        print("Error in product name. Try again")
-        product_name = getProductName()
+    ? = getProductName()
+
+    ? = getProductPrice()
 
 
-    product_price_str = getProductPrice()
-    while not product_price_str:
-        print("Error in product price. Try again")
-        product_price_str = getProductPrice()
-
-    product_price = float (product_price_str)
-
-    addUserProduct(user_email, product_name, product_price)
+    addUserProduct(?, ?, ?)
 
 
 

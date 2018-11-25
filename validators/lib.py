@@ -1,47 +1,36 @@
 
 """
-    Написати валідатор email у домені @kpi.ua:
-    Перша літера англійської абетки у нижньому регістрі, далі стоїть крапка потім прізвище студента.
+    Написати валідатор ....
+    Правило валідації
 """
 
 import re
 
 def getUserEmail():
 
-    user_input = input("Enter your KPI email:\n")
+    user_input = input(?)
 
-    if (re.match(r"^[a-z]\.[a-z]+@kpi\.ua$", user_input) ):
+    if (re.match(r"?", user_input) ):
         return user_input
     else:
         return False
 
 
-
 """
-    Написати валідатор product name:
-    не більше 10 літер англійської абетки у нижньому регістрі.
+    Написати валідатор ....
+    Правило валідації
 """
 
 def getProductName():
+    #TODO
 
-    user_input = input("Enter your product name:\n")
-
-    if (re.match(r"^[a-z]{1,10}$", user_input)):
-        return user_input
-    else:
-        return False
 
 
 """
-    Написати валідатор price: додатне дійсне число з двома знаками після десяткової коми
+    Написати валідатор ....
+    Правило валідації
 """
 
 
 def getProductPrice():
-
-    user_input = input("Enter product price:\n")
-
-    if (re.match(r"^\d+\.\d{2}$", user_input)):
-        return user_input
-    else:
-        return False
+    #TODO

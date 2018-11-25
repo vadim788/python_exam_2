@@ -5,34 +5,20 @@ from data import dataset
 
 
 def addUserProduct(user_name, product_name, product_price):
+    #TODO
 
-    #   Якщо є інформація про користувача у dataset
-    if user_name in dataset:
-
-        #   Якщо користувач вже купляв цей товар раніше, отримуємо список покупок та додаємо покупку
-        if product_name in dataset[user_name]:
-            product_list = dataset[user_name][product_name]
-            product_list.append(product_price)
-
-        #   Якщо користувач не купляв цей товар раніше - створюємо список
-        else:
-            dataset[user_name][product_name] = [product_price]
-
-    #   Якщо інформація відсутня - створюємо нову структуру і словник для запису інформації про покупку
-    else:
-        dataset[user_name] = { product_name: [product_price] }
 
 
 print("Task 1")
 
 #Додати нового користувача та нову покупку
-addUserProduct("b.boba@kpi.ua","cake",42.50)
+addUserProduct(?,?,?)
 
 #Додати існуючому користувачу нову покупку нового продукту
-addUserProduct("b.boba@kpi.ua","coffe",12.00)
+addUserProduct(?,?,?)
 
 #Додати існуючому користувачу нову покупку існуючого продукту
-addUserProduct("b.boba@kpi.ua","coffe",12.00)
+addUserProduct(?,?,?)
 
 print(dataset)
 
